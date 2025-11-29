@@ -1,23 +1,35 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🎧 Sprinkster
 
-# Run and deploy your AI Studio app
+Sprinkster is a Spotify-inspired music streaming web app built with modern web technologies.  
+It offers a sleek, responsive interface and core features like music playback, playlist creation, and artist browsing — all under a fresh new name and vibe.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1fhvNLDgSll70cay9MhLL9B25Aux_pAQg
+## 🚀 Features
 
-## Run Locally
+- 🎵 **Play Music** – Stream tracks with play/pause/skip controls.
+- 📁 **Create Playlists** – Build and manage your own music collections.
+- 🔍 **Search Artists & Songs** – Find your favorites instantly.
+- 📱 **Responsive Design** – Optimized for desktop and mobile.
+- 🌙 **Dark Mode** – Smooth, eye-friendly interface.
 
-**Prerequisites:**  Node.js
+---
 
+## 🛠️ Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Frontend:** React + TypeScript
+- **Styling:** TailwindCSS / CSS Modules
+- **Backend:** Node.js + Express (optional)
+- **Database:** Firebase / MongoDB (optional)
+- **Authentication:** Firebase Auth / OAuth
+- **API:** Spotify Web API or custom mock data
 
-# AI-ass-repos
-INSPIRED.. AI assisted repos to make like blueprint of sites through imagination and some clones of sites.(mess actually)
+---
+
+## 📦 Getting Started
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/sohanbhandari/sprinkster.git
+   cd sprinkster
+
